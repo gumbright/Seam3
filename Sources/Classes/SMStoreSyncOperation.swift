@@ -39,7 +39,7 @@ enum SMSyncOperationError: Error {
     case unknownError
 }
 
-public extension SMSyncOperationError: LocalizedError {
+extension SMSyncOperationError: LocalizedError {
     public var errorDescription: String? {
         switch self {
         case .localChangesFetchError:
@@ -88,7 +88,7 @@ public class SMStoreSyncOperation: Operation {
     }
     
     // MARK: Sync
-    override func main() {
+    override public func main() {
         print("Sync Started", terminator: "\n")
         self.operationQueue = OperationQueue()
         self.operationQueue.maxConcurrentOperationCount = 1
