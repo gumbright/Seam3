@@ -36,6 +36,20 @@
 		BB9341621E5A52C000A0A63A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB9341611E5A52C000A0A63A /* Assets.xcassets */; };
 		BB9341641E5A538100A0A63A /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB9341631E5A538100A0A63A /* CloudKit.framework */; };
 		DC4EBD9BEFEB963DBBB3DC00 /* Pods_Seam3_Example_OSX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57B291CDD8C9EF4F0422D925 /* Pods_Seam3_Example_OSX.framework */; };
+		E4846D791FE61B8B002FD5F4 /* seam3.h in Headers */ = {isa = PBXBuildFile; fileRef = E4846D771FE61B8B002FD5F4 /* seam3.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E4846D8A1FE61BDB002FD5F4 /* NSEntityDescription+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4846D7D1FE61BDA002FD5F4 /* NSEntityDescription+Helpers.swift */; };
+		E4846D8B1FE61BDB002FD5F4 /* SMStoreSyncOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4846D7E1FE61BDA002FD5F4 /* SMStoreSyncOperation.swift */; };
+		E4846D8C1FE61BDB002FD5F4 /* CKRecordZone+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4846D7F1FE61BDA002FD5F4 /* CKRecordZone+Helpers.swift */; };
+		E4846D8D1FE61BDB002FD5F4 /* SMServerStoreSetupOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4846D801FE61BDA002FD5F4 /* SMServerStoreSetupOperation.swift */; };
+		E4846D8E1FE61BDB002FD5F4 /* SMStoreChangeSetHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4846D811FE61BDA002FD5F4 /* SMStoreChangeSetHandler.swift */; };
+		E4846D8F1FE61BDB002FD5F4 /* CKRecord+NSManagedObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4846D821FE61BDA002FD5F4 /* CKRecord+NSManagedObject.swift */; };
+		E4846D901FE61BDB002FD5F4 /* SMObjectDependencyGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4846D831FE61BDA002FD5F4 /* SMObjectDependencyGraph.swift */; };
+		E4846D911FE61BDB002FD5F4 /* SMServerTokenHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4846D841FE61BDA002FD5F4 /* SMServerTokenHandler.swift */; };
+		E4846D921FE61BDB002FD5F4 /* NSManagedObject+CKRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4846D851FE61BDA002FD5F4 /* NSManagedObject+CKRecord.swift */; };
+		E4846D931FE61BDB002FD5F4 /* NSManagedObjectContext+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4846D861FE61BDA002FD5F4 /* NSManagedObjectContext+Helpers.swift */; };
+		E4846D941FE61BDB002FD5F4 /* SMServerZoneLookupOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4846D871FE61BDB002FD5F4 /* SMServerZoneLookupOperation.swift */; };
+		E4846D951FE61BDB002FD5F4 /* SMStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4846D881FE61BDB002FD5F4 /* SMStore.swift */; };
+		E4846D961FE61BDB002FD5F4 /* CKRecordZoneID+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4846D891FE61BDB002FD5F4 /* CKRecordZoneID+Helpers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -96,6 +110,22 @@
 		C6DFA1354567D6965A366287 /* Pods-Seam3_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Seam3_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Seam3_Example/Pods-Seam3_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		D5C4E8D6AE3EDFFFC4DC0B8B /* Seam3.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Seam3.podspec; path = ../Seam3.podspec; sourceTree = "<group>"; };
 		E336BFDF4A21BF975FB8156D /* Pods-Seam3_Example_TVOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Seam3_Example_TVOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Seam3_Example_TVOS/Pods-Seam3_Example_TVOS.debug.xcconfig"; sourceTree = "<group>"; };
+		E4846D751FE61B8B002FD5F4 /* seam3.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = seam3.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4846D771FE61B8B002FD5F4 /* seam3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = seam3.h; sourceTree = "<group>"; };
+		E4846D781FE61B8B002FD5F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4846D7D1FE61BDA002FD5F4 /* NSEntityDescription+Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "NSEntityDescription+Helpers.swift"; path = "../../Sources/Classes/NSEntityDescription+Helpers.swift"; sourceTree = "<group>"; };
+		E4846D7E1FE61BDA002FD5F4 /* SMStoreSyncOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SMStoreSyncOperation.swift; path = ../../Sources/Classes/SMStoreSyncOperation.swift; sourceTree = "<group>"; };
+		E4846D7F1FE61BDA002FD5F4 /* CKRecordZone+Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "CKRecordZone+Helpers.swift"; path = "../../Sources/Classes/CKRecordZone+Helpers.swift"; sourceTree = "<group>"; };
+		E4846D801FE61BDA002FD5F4 /* SMServerStoreSetupOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SMServerStoreSetupOperation.swift; path = ../../Sources/Classes/SMServerStoreSetupOperation.swift; sourceTree = "<group>"; };
+		E4846D811FE61BDA002FD5F4 /* SMStoreChangeSetHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SMStoreChangeSetHandler.swift; path = ../../Sources/Classes/SMStoreChangeSetHandler.swift; sourceTree = "<group>"; };
+		E4846D821FE61BDA002FD5F4 /* CKRecord+NSManagedObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "CKRecord+NSManagedObject.swift"; path = "../../Sources/Classes/CKRecord+NSManagedObject.swift"; sourceTree = "<group>"; };
+		E4846D831FE61BDA002FD5F4 /* SMObjectDependencyGraph.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SMObjectDependencyGraph.swift; path = ../../Sources/Classes/SMObjectDependencyGraph.swift; sourceTree = "<group>"; };
+		E4846D841FE61BDA002FD5F4 /* SMServerTokenHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SMServerTokenHandler.swift; path = ../../Sources/Classes/SMServerTokenHandler.swift; sourceTree = "<group>"; };
+		E4846D851FE61BDA002FD5F4 /* NSManagedObject+CKRecord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "NSManagedObject+CKRecord.swift"; path = "../../Sources/Classes/NSManagedObject+CKRecord.swift"; sourceTree = "<group>"; };
+		E4846D861FE61BDA002FD5F4 /* NSManagedObjectContext+Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "NSManagedObjectContext+Helpers.swift"; path = "../../Sources/Classes/NSManagedObjectContext+Helpers.swift"; sourceTree = "<group>"; };
+		E4846D871FE61BDB002FD5F4 /* SMServerZoneLookupOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SMServerZoneLookupOperation.swift; path = ../../Sources/Classes/SMServerZoneLookupOperation.swift; sourceTree = "<group>"; };
+		E4846D881FE61BDB002FD5F4 /* SMStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SMStore.swift; path = ../../Sources/Classes/SMStore.swift; sourceTree = "<group>"; };
+		E4846D891FE61BDB002FD5F4 /* CKRecordZoneID+Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "CKRecordZoneID+Helpers.swift"; path = "../../Sources/Classes/CKRecordZoneID+Helpers.swift"; sourceTree = "<group>"; };
 		E58C37E8E69937F8ECB6E3D9 /* Pods-Seam3_Example_OSX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Seam3_Example_OSX.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Seam3_Example_OSX/Pods-Seam3_Example_OSX.debug.xcconfig"; sourceTree = "<group>"; };
 		F6C1DF1517B5ED1CA75B0270 /* Pods-Seam3_Example_OSX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Seam3_Example_OSX.release.xcconfig"; path = "Pods/Target Support Files/Pods-Seam3_Example_OSX/Pods-Seam3_Example_OSX.release.xcconfig"; sourceTree = "<group>"; };
 		FDF8FA189379E0C04D50777A /* Pods_Seam3_Example_TVOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Seam3_Example_TVOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -137,6 +167,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E4846D711FE61B8B002FD5F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -164,6 +201,7 @@
 				607FACE81AFB9204008FA782 /* Tests */,
 				BB93414E1E57ECC500A0A63A /* Seam3_Example_OSX */,
 				BB7BB2771E5BCC93000ECBCB /* Seam3_Example_TVOS */,
+				E4846D761FE61B8B002FD5F4 /* seam3 */,
 				607FACD11AFB9204008FA782 /* Products */,
 				165F11D0344CB4927E30B612 /* Pods */,
 				9F59CF4C37B9421AB8216220 /* Frameworks */,
@@ -177,6 +215,7 @@
 				607FACE51AFB9204008FA782 /* Seam3_Tests.xctest */,
 				BB93414D1E57ECC500A0A63A /* Seam3_Example_OSX.app */,
 				BB7BB2761E5BCC93000ECBCB /* Seam3_Example_TVOS.app */,
+				E4846D751FE61B8B002FD5F4 /* seam3.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -277,7 +316,40 @@
 			path = Seam3_Example_OSX;
 			sourceTree = "<group>";
 		};
+		E4846D761FE61B8B002FD5F4 /* seam3 */ = {
+			isa = PBXGroup;
+			children = (
+				E4846D821FE61BDA002FD5F4 /* CKRecord+NSManagedObject.swift */,
+				E4846D7F1FE61BDA002FD5F4 /* CKRecordZone+Helpers.swift */,
+				E4846D891FE61BDB002FD5F4 /* CKRecordZoneID+Helpers.swift */,
+				E4846D7D1FE61BDA002FD5F4 /* NSEntityDescription+Helpers.swift */,
+				E4846D851FE61BDA002FD5F4 /* NSManagedObject+CKRecord.swift */,
+				E4846D861FE61BDA002FD5F4 /* NSManagedObjectContext+Helpers.swift */,
+				E4846D831FE61BDA002FD5F4 /* SMObjectDependencyGraph.swift */,
+				E4846D801FE61BDA002FD5F4 /* SMServerStoreSetupOperation.swift */,
+				E4846D841FE61BDA002FD5F4 /* SMServerTokenHandler.swift */,
+				E4846D871FE61BDB002FD5F4 /* SMServerZoneLookupOperation.swift */,
+				E4846D881FE61BDB002FD5F4 /* SMStore.swift */,
+				E4846D811FE61BDA002FD5F4 /* SMStoreChangeSetHandler.swift */,
+				E4846D7E1FE61BDA002FD5F4 /* SMStoreSyncOperation.swift */,
+				E4846D771FE61B8B002FD5F4 /* seam3.h */,
+				E4846D781FE61B8B002FD5F4 /* Info.plist */,
+			);
+			path = seam3;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		E4846D721FE61B8B002FD5F4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4846D791FE61B8B002FD5F4 /* seam3.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		607FACCF1AFB9204008FA782 /* Seam3_Example */ = {
@@ -361,6 +433,24 @@
 			productReference = BB93414D1E57ECC500A0A63A /* Seam3_Example_OSX.app */;
 			productType = "com.apple.product-type.application";
 		};
+		E4846D741FE61B8B002FD5F4 /* seam3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4846D7C1FE61B8B002FD5F4 /* Build configuration list for PBXNativeTarget "seam3" */;
+			buildPhases = (
+				E4846D701FE61B8B002FD5F4 /* Sources */,
+				E4846D711FE61B8B002FD5F4 /* Frameworks */,
+				E4846D721FE61B8B002FD5F4 /* Headers */,
+				E4846D731FE61B8B002FD5F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = seam3;
+			productName = seam3;
+			productReference = E4846D751FE61B8B002FD5F4 /* seam3.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -422,6 +512,12 @@
 							};
 						};
 					};
+					E4846D741FE61B8B002FD5F4 = {
+						CreatedOnToolsVersion = 9.2;
+						DevelopmentTeam = ZMM57QUPP2;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = 607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "Seam3" */;
@@ -441,6 +537,7 @@
 				607FACE41AFB9204008FA782 /* Seam3_Tests */,
 				BB93414C1E57ECC500A0A63A /* Seam3_Example_OSX */,
 				BB7BB2751E5BCC93000ECBCB /* Seam3_Example_TVOS */,
+				E4846D741FE61B8B002FD5F4 /* seam3 */,
 			);
 		};
 /* End PBXProject section */
@@ -478,6 +575,13 @@
 			files = (
 				BB9341621E5A52C000A0A63A /* Assets.xcassets in Resources */,
 				BB93415A1E57ECC500A0A63A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4846D731FE61B8B002FD5F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -707,6 +811,26 @@
 				BB7BB26D1E5AAC25000ECBCB /* DeviceTableViewController.swift in Sources */,
 				BB7BB2701E5AAC37000ECBCB /* EventTableViewController.swift in Sources */,
 				BB9341501E57ECC500A0A63A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4846D701FE61B8B002FD5F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4846D941FE61BDB002FD5F4 /* SMServerZoneLookupOperation.swift in Sources */,
+				E4846D901FE61BDB002FD5F4 /* SMObjectDependencyGraph.swift in Sources */,
+				E4846D961FE61BDB002FD5F4 /* CKRecordZoneID+Helpers.swift in Sources */,
+				E4846D8B1FE61BDB002FD5F4 /* SMStoreSyncOperation.swift in Sources */,
+				E4846D8E1FE61BDB002FD5F4 /* SMStoreChangeSetHandler.swift in Sources */,
+				E4846D911FE61BDB002FD5F4 /* SMServerTokenHandler.swift in Sources */,
+				E4846D951FE61BDB002FD5F4 /* SMStore.swift in Sources */,
+				E4846D8A1FE61BDB002FD5F4 /* NSEntityDescription+Helpers.swift in Sources */,
+				E4846D931FE61BDB002FD5F4 /* NSManagedObjectContext+Helpers.swift in Sources */,
+				E4846D8D1FE61BDB002FD5F4 /* SMServerStoreSetupOperation.swift in Sources */,
+				E4846D8F1FE61BDB002FD5F4 /* CKRecord+NSManagedObject.swift in Sources */,
+				E4846D8C1FE61BDB002FD5F4 /* CKRecordZone+Helpers.swift in Sources */,
+				E4846D921FE61BDB002FD5F4 /* NSManagedObject+CKRecord.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1024,6 +1148,73 @@
 			};
 			name = Release;
 		};
+		E4846D7A1FE61B8B002FD5F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = ZMM57QUPP2;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = seam3/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.umbrightconsulting.seam3;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E4846D7B1FE61B8B002FD5F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = ZMM57QUPP2;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = seam3/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.umbrightconsulting.seam3;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1068,6 +1259,15 @@
 			buildConfigurations = (
 				BB93415C1E57ECC500A0A63A /* Debug */,
 				BB93415D1E57ECC500A0A63A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4846D7C1FE61B8B002FD5F4 /* Build configuration list for PBXNativeTarget "seam3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4846D7A1FE61B8B002FD5F4 /* Debug */,
+				E4846D7B1FE61B8B002FD5F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
