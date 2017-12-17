@@ -31,7 +31,7 @@ import Foundation
 import CoreData
 import CloudKit
 
-extension NSManagedObject {
+public extension NSManagedObject {
     fileprivate func setAttributesValues(ofCKRecord ckRecord:CKRecord, withValuesOfAttributeWithKeys keys: [String]?) {
         
         let attributes = keys ?? Array(self.entity.attributesByNameByRemovingBackingStoreAttributes().keys)

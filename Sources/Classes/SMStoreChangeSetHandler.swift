@@ -39,7 +39,7 @@ enum SMLocalStoreRecordChangeType: Int16 {
     case recordInserted = 3
 }
 
-class SMStoreChangeSetHandler {
+public class SMStoreChangeSetHandler {
     
     static let SMLocalStoreEntityNameAttributeName = "sm_LocalStore_EntityName"
     static let SMLocalStoreChangeTypeAttributeName="sm_LocalStore_ChangeType"

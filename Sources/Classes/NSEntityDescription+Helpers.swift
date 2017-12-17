@@ -30,7 +30,7 @@
 import Foundation
 import CoreData
 
-extension NSEntityDescription {
+public extension NSEntityDescription {
     
     func attributesByNameByRemovingBackingStoreAttributes() -> [String:NSAttributeDescription] {
         var attributesByName = self.attributesByName

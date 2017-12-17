@@ -29,7 +29,7 @@
 import CloudKit
 
 
-extension CKRecordZoneID {
+public extension CKRecordZoneID {
     
     class func smCloudStoreCustomZoneID() -> CKRecordZoneID {
         var zoneID: CKRecordZoneID

@@ -39,7 +39,7 @@ enum SMSyncOperationError: Error {
     case unknownError
 }
 
-extension SMSyncOperationError: LocalizedError {
+public extension SMSyncOperationError: LocalizedError {
     public var errorDescription: String? {
         switch self {
         case .localChangesFetchError:
@@ -61,7 +61,7 @@ public struct SeamConflictedRecord {
 }
 
 
-class SMStoreSyncOperation: Operation {
+public class SMStoreSyncOperation: Operation {
     
     static let SMStoreSyncOperationErrorDomain = "SMStoreSyncOperationDomain"
     static let SMSyncConflictsResolvedRecordsKey = "SMSyncConflictsResolvedRecordsKey"

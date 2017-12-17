@@ -29,7 +29,7 @@
 
 import CloudKit
 
-extension CKRecordZone {
+public extension CKRecordZone {
     
     class func smCloudStoreCustomZone() -> CKRecordZone {
         

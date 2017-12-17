@@ -31,7 +31,7 @@ import Foundation
 import CoreData
 import CloudKit
 
-extension CKRecord {
+public extension CKRecord {
     
     func allAttributeKeys(usingAttributesByNameFromEntity attributesByName: [String:NSAttributeDescription]) -> [String] {
         return self.allKeys().filter({ (key) -> Bool in
